@@ -57,10 +57,10 @@ while i != "quit":
         print (f"you did your {n}'s in {int( time.time() - t )} seconds")
         input("press ENTER to continue")
         os.system("cls")
-    else:
+    elif i != "quit":
         print("INVALID!")
     
-print("bye")
+print("thank you for playing quizzer")
 
 
 
